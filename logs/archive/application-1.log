@@ -1,0 +1,33 @@
+2020-05-26 T 18:15:52.791 INFO  [restartedMain]:  Starting ApiApplication on LAPTOP-TKFRV3VO with PID 14180 (C:\Users\Ayush Mittal\Desktop\api\api\target\classes started by Ayush Mittal in C:\Users\Ayush Mittal\Desktop\api)
+2020-05-26 T 18:15:52.826 INFO  [restartedMain]:  No active profile set, falling back to default profiles: default
+2020-05-26 T 18:16:06.474 INFO  [restartedMain]:  Started ApiApplication in 14.617 seconds (JVM running for 20.647)
+2020-05-26 T 18:17:29.936 INFO  [http-nio-8080-exec-2]:  Controller Get All products method called  
+2020-05-26 T 18:17:29.936 INFO  [http-nio-8080-exec-2]:  Service getProduct method called 
+2020-05-26 T 18:17:48.370 INFO  [http-nio-8080-exec-2]:  Controller Get ALl products method Response received returning list  
+2020-05-26 T 18:18:05.937 INFO  [http-nio-8080-exec-3]:  Service getProductByID method called with ID 2
+2020-05-26 T 18:18:06.048 INFO  [http-nio-8080-exec-3]:  Controller getProductById method Response received returning product  
+2020-05-26 T 18:18:35.518 WARN  [http-nio-8080-exec-4]:  Service updateproduct method  product NOT in database thro NULL POINTER EXCEPTION
+2020-05-26 T 18:18:35.519 INFO  [http-nio-8080-exec-4]:   Controller addchannel method Exception thrown from service Product Doesnot Exist
+2020-05-26 T 18:18:41.034 INFO  [http-nio-8080-exec-8]:  Service add_channel method product found in database
+2020-05-26 T 18:18:41.036 WARN  [http-nio-8080-exec-8]:  Service add_channel method Product have channel already ERROR THROWING 
+2020-05-26 T 18:18:41.036 INFO  [http-nio-8080-exec-8]:   Controller addchannel method Exception thrown from service Product have channel already  Exist
+2020-05-26 T 18:18:48.429 WARN  [http-nio-8080-exec-7]:  Service updateproduct method  product NOT in database thro NULL POINTER EXCEPTION
+2020-05-26 T 18:18:48.429 INFO  [http-nio-8080-exec-7]:   Controller addchannel method Exception thrown from service Product Doesnot Exist
+2020-05-26 T 18:18:52.895 INFO  [http-nio-8080-exec-10]:  Service add_channel method product found in database
+2020-05-26 T 18:18:52.899 WARN  [http-nio-8080-exec-10]:  Service add_channel method Product have channel already ERROR THROWING 
+2020-05-26 T 18:18:52.899 INFO  [http-nio-8080-exec-10]:   Controller addchannel method Exception thrown from service Product have channel already  Exist
+2020-05-26 T 18:18:57.003 WARN  [http-nio-8080-exec-2]:  Service updateproduct method  product NOT in database thro NULL POINTER EXCEPTION
+2020-05-26 T 18:18:57.004 INFO  [http-nio-8080-exec-2]:   Controller addchannel method Exception thrown from service Product Doesnot Exist
+2020-05-26 T 18:19:01.138 INFO  [http-nio-8080-exec-4]:  Service add_channel method product found in database
+2020-05-26 T 18:19:01.140 WARN  [http-nio-8080-exec-4]:  Service add_channel method Product have channel already ERROR THROWING 
+2020-05-26 T 18:19:01.140 INFO  [http-nio-8080-exec-4]:   Controller addchannel method Exception thrown from service Product have channel already  Exist
+2020-05-26 T 18:19:13.953 INFO  [http-nio-8080-exec-8]:  Service add_channel method product found in database
+2020-05-26 T 18:19:13.956 INFO  [http-nio-8080-exec-8]:  Service add_channel method Saving product with added channel in database
+2020-05-26 T 18:19:15.639 INFO  [http-nio-8080-exec-8]:  Controller addchannel method Response channel added successfully 
+2020-05-26 T 18:19:28.643 INFO  [http-nio-8080-exec-6]:  Service getProductByID method called with ID 7
+2020-05-26 T 18:19:28.646 INFO  [http-nio-8080-exec-6]:  Controller getProductById method Response received returning product  
+2020-05-26 T 18:19:52.318 INFO  [http-nio-8080-exec-7]:  Service updateproduct method Saving product 7 in database
+2020-05-26 T 18:19:52.321 INFO  [http-nio-8080-exec-7]:  Controller updateProduct method Response received saved successfully 
+2020-05-26 T 18:19:56.592 INFO  [http-nio-8080-exec-9]:  Service addProduct method called 
+2020-05-26 T 18:19:56.595 INFO  [http-nio-8080-exec-9]:  Service addProduct method Product already existed exception thrown 
+2020-05-26 T 18:19:56.596 INFO  [http-nio-8080-exec-9]:   Controller addproduct method Exception thrown from service Product Already Existed

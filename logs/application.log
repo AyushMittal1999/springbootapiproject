@@ -1,0 +1,8 @@
+2020-05-26 T 20:04:55.264 INFO  [restartedMain]:  Starting ApiApplication on LAPTOP-TKFRV3VO with PID 1468 (C:\Users\Ayush Mittal\Desktop\springboot-master\springboot-master\api\api\target\classes started by Ayush Mittal in C:\Users\Ayush Mittal\Desktop\springboot-master\springboot-master\api)
+2020-05-26 T 20:04:55.294 INFO  [restartedMain]:  No active profile set, falling back to default profiles: default
+2020-05-26 T 20:04:58.844 INFO  [restartedMain]:  Started ApiApplication in 4.171 seconds (JVM running for 5.569)
+2020-05-26 T 20:05:04.749 INFO  [http-nio-8080-exec-2]:  Controller Get All products method called  
+2020-05-26 T 20:05:04.751 INFO  [http-nio-8080-exec-2]:  Service getProduct method called 
+2020-05-26 T 20:05:04.931 INFO  [http-nio-8080-exec-2]:  Controller Get ALl products method Response received returning list  
+2020-05-26 T 20:05:10.974 INFO  [http-nio-8080-exec-3]:  Service getProductByID method called with ID 1
+2020-05-26 T 20:05:10.991 INFO  [http-nio-8080-exec-3]:  Controller getProductById method Response received returning product  

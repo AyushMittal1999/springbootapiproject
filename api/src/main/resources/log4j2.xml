@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration monitorInterval = "30">
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd' T 'HH:mm:ss.SSS} %p  [%t]:  %m%n</Property>
+        <Property name="path">logs</Property>
+    </Properties>
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT" follow="true">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+
+        </Console>
+<!--        <File name="App-Appender" fileName="${path}/app_log.log">-->
+<!--            <PatternLayout>-->
+<!--                <pattern>-->
+<!--                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n-->
+<!--                </pattern>-->
+<!--            </PatternLayout>-->
+<!--        </File>-->
+<!--        <File name="SpringBoot-Appender" fileName="${path}/springboot_log.log">-->
+<!--            <PatternLayout>-->
+<!--                <pattern>-->
+<!--                    [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n-->
+<!--                </pattern>-->
+<!--            </PatternLayout>-->
+<!--        </File>-->
+
+        <RollingFile name="appLog"
+                     fileName="${path}/application.log"
+                     filePattern="${path}/archive/application-%i.log">
+            <PatternLayout pattern="${LOG_PATTERN}" />
+            <Policies>
+                <OnStartupTriggeringPolicy  minSize="0KB" />
+
+            </Policies>
+            <DefaultRolloverStrategy max="3" />"
+        </RollingFile>
+
+
+
+
+    </Appenders>
+
+    <Loggers>
+
+        <Logger name="com.example.api" additivity="false">
+            <AppenderRef ref="appLog" />
+            <AppenderRef ref="Console" />
+        </Logger>
+
+
+
+        <Root level="info" >
+            <AppenderRef ref="Console" />
+        </Root>
+
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,18 @@
+2020-05-26 T 18:24:46.458 INFO  [restartedMain]:  Starting ApiApplication on LAPTOP-TKFRV3VO with PID 15860 (C:\Users\Ayush Mittal\Desktop\api\api\target\classes started by Ayush Mittal in C:\Users\Ayush Mittal\Desktop\api)
+2020-05-26 T 18:24:46.563 INFO  [restartedMain]:  No active profile set, falling back to default profiles: default
+2020-05-26 T 18:24:51.195 INFO  [restartedMain]:  Started ApiApplication in 5.254 seconds (JVM running for 6.605)
+2020-05-26 T 18:24:53.643 INFO  [http-nio-8080-exec-1]:  Controller Get All products method called  
+2020-05-26 T 18:24:53.644 INFO  [http-nio-8080-exec-1]:  Service getProduct method called 
+2020-05-26 T 18:24:53.901 INFO  [http-nio-8080-exec-1]:  Controller Get ALl products method Response received returning list  
+2020-05-26 T 18:24:56.581 INFO  [http-nio-8080-exec-3]:  Service getProductByID method called with ID 1
+2020-05-26 T 18:24:56.596 INFO  [http-nio-8080-exec-3]:  Controller getProductById method Response received returning product  
+2020-05-26 T 18:25:00.047 INFO  [http-nio-8080-exec-4]:  Service getProductByID method called with ID 2
+2020-05-26 T 18:25:00.052 INFO  [http-nio-8080-exec-4]:  Controller getProductById method Response received returning product  
+2020-05-26 T 18:25:02.752 INFO  [http-nio-8080-exec-5]:  Service getProductByID method called with ID 3
+2020-05-26 T 18:25:02.756 INFO  [http-nio-8080-exec-5]:   Controller Get ALl products method Exception thrown from service No value present
+2020-05-26 T 18:25:05.083 INFO  [http-nio-8080-exec-9]:  Controller Get All products method called  
+2020-05-26 T 18:25:05.083 INFO  [http-nio-8080-exec-9]:  Service getProduct method called 
+2020-05-26 T 18:25:05.083 INFO  [http-nio-8080-exec-8]:  Controller Get All products method called  
+2020-05-26 T 18:25:05.084 INFO  [http-nio-8080-exec-8]:  Service getProduct method called 
+2020-05-26 T 18:25:05.089 INFO  [http-nio-8080-exec-9]:  Controller Get ALl products method Response received returning list  
+2020-05-26 T 18:25:05.094 INFO  [http-nio-8080-exec-8]:  Controller Get ALl products method Response received returning list  
